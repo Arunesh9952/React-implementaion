@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .auction-platform {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .auction-banner {
+    /* background-image: url("auction-banner.jpg"); */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+  }
+  
+  .banner-text {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .login-section {
+    margin-top: 2rem;
+    opacity: 1;
+  }
+  
+  .login-card {
+    max-width: 400px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    opacity: 0.9;
+  }
+  
+  .login-card h3 {
+    font-weight: bold;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    color: #000000;
+    opacity: 1;
+  }
+  
+  .btn-primary {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .text-muted a {
+    text-decoration: none;
+    font-weight: bold;
+  }
